@@ -8,44 +8,50 @@
 	<link rel="stylesheet" type="text/css" href="Google-css.css" />
 </head>
 <body>
-	<header Class = "header">
-		<a href="#">Gmail</a> 
-		<a href="#">Images</a> 
-		<a href="#"><i class="material-icons">grid_on</i></a> 
-		<a id="Signin" href="#">Signin</a>
-	</header>
-	<article>
-		<section>
-			<div Class="Banner">
-				<img id = "banner" src = "Logos-Google.png" alt = "image unavailable" />
+	<nav Class = "header">
+		<ul>
+			<li><a id="Signin" href="#">Sign in</a></li>
+			<li><a href="#">Images</a> </li>
+			<li><a href="#">Gmail</a> </li>
+		</ul>
+	</nav>
+	<section class = "content">
+		<img id = "banner" src = "Logos-Google-01.png" alt = "image unavailable" />
+		<div Class = "SearchBox">
+			<div>
+			<input type="search" placeholder="Search.." >
+			<a  href=# ><img id = "voicesearch" src="Google_mic.svg.png" height="20px" width="12px" ></a>
 			</div>
-			<div Class = "SearchBox">
-				<input type="text" placeholder="Search.." >
-				<a  href=# ><img id = "voicesearch" src="Google_mic.svg.png" height="20px" width="12px" ></a>
-			</div>
-			<div Class = "SearchButtons">
-				<button type="button">Google Search</button>
-				<button type="button">I'm Feeling Lucky</button>
-			</div>
-			<div class="votedata">
-				<a href= "#">Register to vote</a>
-				<span>ahead of elections 2019</span>
-			</div>
-		
-		</section>
-	</article>
-	
+		</div>
+		<div Class = "SearchButtons">
+		<ul>
+			<li><a href = "#">Google Search</a></li>
+			<li><a href="#">I'm Feeling Lucky</a></li>
+		</ul>
+		</div>	
+		<div class="votedata">
+			<a href= "#">Register to vote</a>
+			<span>ahead of elections 2019</span>
+		</div>
+	</section>
 	<footer>
-		<div Class = "part1">
-			<p>Advertising</p>
-			<p>Business</p>
-			<p>About</p>
-		</div> 
-		<div Class = "part2">
-			<p>Privacy</p>
-			<p>Terms</p>
-			<p>Settings</p>
-		</div>  
+		<p>India</p>
+		<div class = "col1">
+		<ul>
+			<li><a href="#">Advertisement</a></li>
+			<li><a href="#">Business</a> </li>
+			<li><a href="#">About</a> </li>
+		</ul></div>
+		<div class =  "col2">
+		<ul Class="col2">
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Terms</a> </li>
+			<li><a href="#">Settings</a> </li>
+		</ul>
+	</div>
+</footer>
+	
+	
 	
 </body>  
 </html>
